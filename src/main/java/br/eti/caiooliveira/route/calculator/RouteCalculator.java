@@ -18,7 +18,7 @@ public class RouteCalculator {
 	private RouteService routeService;
 	private RouteCalculatorConfig routeCalculatorConfig;
 
-	public RouteCalculator(Builder builder) {
+	private RouteCalculator(Builder builder) {
 		this.addressService = builder.addressService;
 		this.routeService = builder.routeService;
 		this.typeRoute = builder.typeRoute;
@@ -35,8 +35,12 @@ public class RouteCalculator {
 			this.routeCalculatorConfig = routeCalculatorConfig;
 		}
 
+		public Builder() {
+			this(new RouteCalculatorConfig("c13iyCvmcC9mzwkLd0LCbmYC5mUF5m2jNGNtNGt6NmK6NJK="));
+		}
+		
 		public static Builder create() {
-			return new Builder(new RouteCalculatorConfig("c13iyCvmcC9mzwkLd0LCbmYC5mUF5m2jNGNtNGt6NmK6NJK="));
+			return new Builder();
 		}
 
 		public static Builder create(RouteCalculatorConfig routeCalculatorConfig) {
