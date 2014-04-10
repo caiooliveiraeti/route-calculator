@@ -4,7 +4,7 @@ Componente para calculo de totais de rotas.
 
 # Instalando
 
-route-calculator.jar pode ser instalado no seu repositorio de componentes. Por exemplo: ([Nexus Issues](http://www.sonatype.org/nexus/))
+route-calculator.jar pode ser instalado no seu repositorio de componentes. Por exemplo: ([Nexus](http://www.sonatype.org/nexus/))
 
 Depois de instalado basta adicionar no pom.xml
 ```xml
