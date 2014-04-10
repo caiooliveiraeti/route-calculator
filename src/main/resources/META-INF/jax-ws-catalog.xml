@@ -1,0 +1,4 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost.maplink.com/route?wsdl" uri="../maplink/route.wsdl"/>
+	<system systemId="http://localhost.maplink.com/addressFinder?wsdl" uri="../maplink/addressFinder.wsdl"/>
+</catalog>
